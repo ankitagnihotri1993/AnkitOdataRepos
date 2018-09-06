@@ -1,7 +1,6 @@
 {
-  "title": "Ankit API PetStore",
-  "description": "elastic.io component for the Petstore API",
-  "docsUrl": "https://github.com/elasticio/petstore-component-nodejs",
+  "title": "Ankit Odata",
+  "description": "elastic.io component for the odata API",
   "credentials": {
     "fields": {
       "UserName": {
