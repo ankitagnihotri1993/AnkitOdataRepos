@@ -24,18 +24,7 @@
     "GetPeopleViaApi": {
       "main": "./lib/triggers/GetPeopleViaApi.js",
       "type": "polling",
-      "title": "Get people With Odata",
-      "status": {
-        "label": "User Status",
-        "required": true,
-        "viewClass": "SelectView",
-        "model": {
-          "available": "Available",
-          "Busy": "Busy",
-          "OutOfStation": "OutOfStation"
-        },
-        "prompt": "Select user Status"
-      }
+      "title": "Get people With Odata"
     },
     "getPetsByStatusWithPromises": {
       "main": "./lib/triggers/getPetsByStatusWithPromises.js",
