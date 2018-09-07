@@ -14,18 +14,24 @@ module.exports = verify;
 function verify(credentials) {
 
     // access the value of the apiKey field defined in credentials section of component.json
-    const apiKey = credentials.apiKey;
-
-    if (!apiKey) {
-        throw new Error('API key is missing');
+    const UserName = credentials.UserName;
+    const Password = credentials.Password;
+    const endPointUrl = credentials.endPointUrl;
+    if (!UserName) {
+        throw new Error('username is missing');
     }
-
+    if (!Password) {
+        throw new Error('Password is missing');
+    }
+    if (!endPointUrl) {
+        throw new Error('endPointUrl is missing');
+    }
     // sending a request to the most simple endpoint of the target API
     const requestOptions = {
         uri: 'https://services.odata.org/TripPinRESTierService/People',
-        headers: {
-            'api-key': apiKey
-        },
+        // headers: {
+        //     'api-key': apiKey
+        // },
         json: true
     };
 
