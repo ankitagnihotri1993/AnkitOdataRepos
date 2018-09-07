@@ -11,7 +11,7 @@
       "Password": {
         "label": "Password",
         "required": true,
-        "viewClass": "PasswordFieldView"
+        "viewClass": "TextFieldWithNoteView"
       }
     }
   },
