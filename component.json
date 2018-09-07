@@ -3,7 +3,7 @@
   "description": "elastic.io component for the odata API",
   "credentials": {
     "fields": {
-      "UserName": {
+      "User": {
         "label": "User",
         "required": true,
         "viewClass": "TextFieldWithNoteView"
