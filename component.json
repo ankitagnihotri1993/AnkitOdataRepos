@@ -1,10 +1,10 @@
 {
-  "title": "Ankit Odata",
+  "title": "Ankit Odata credentials",
   "description": "elastic.io component for the odata API",
   "credentials": {
     "fields": {
       "UserName": {
-        "label": "UserName",
+        "label": "User",
         "required": true,
         "viewClass": "TextFieldWithNoteView"
       },
