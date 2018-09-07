@@ -1,8 +1,8 @@
 "use strict";
 const request = require('request-promise');
 const API_BASE_URI = 'https://services.odata.org/TripPinRESTierService/(S(kxrlfpjz0tsjcnqu1vedklv2))/People';
-
-function getPeople()
+exports.process = processTrigger;
+function processTrigger()
 {
 
    console.log('invoked');0
@@ -19,4 +19,3 @@ request.get(requestOptions).then(function(response)
   });
 
 }
-getPeople();
