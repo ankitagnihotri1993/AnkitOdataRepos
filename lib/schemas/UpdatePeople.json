@@ -1,0 +1,29 @@
+{
+    "definitions": {},
+    "type": "object",
+    "title": "The Root Schema",
+    "required": [
+      "FirstName",
+      "LastName"
+    ],
+    "properties": {
+      "FirstName": {
+        "type": "string",
+        "title": "The Firstname Schema",
+        "default": "",
+        "examples": [
+          "Mirs"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "LastName": {
+        "type": "string",
+        "title": "The Lastname Schema",
+        "default": "",
+        "examples": [
+          "King"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
